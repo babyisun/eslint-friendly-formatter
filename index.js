@@ -55,7 +55,8 @@ var getFileLink = function(_path, line, column) {
 
 var getKeyLink = function(key) {
   var noLinkRules = parseBoolEnvVar('EFF_NO_LINK_RULES');
-  var url = key.indexOf('/') > -1 ? 'https://google.com/#q=' : 'http://eslint.org/docs/rules/';
+  // var url = key.indexOf('/') > -1 ? 'https://google.com/#q=' : 'http://eslint.org/docs/rules/';
+  var url = key.indexOf('/') > -1 ? 'https://www.baidu.com/s?wd=' : 'http://eslint.cn/docs/rules/';
   return (!noLinkRules) ? chalk.underline(subtleLog(url + chalk.white(encodeURIComponent(key)))) : chalk.white(key);
 };
 

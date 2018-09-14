@@ -2,7 +2,8 @@
 
 [eslint](https://github.com/nzakas/eslint/)-friendly-formatter is moved to [eslint](https://github.com/nzakas/eslint/)-formatter-friendly, check https://github.com/royriojas/eslint-friendly-formatter/issues/34 for the motivation
 
-# [eslint](https://github.com/nzakas/eslint/)-formatter-friendly
+# [eslint](https://github.com/nzakas/eslint/)-formatter-friendly-cn
+> This package is building for Chinese user who can't search in google.It has changed the links to baidu.com & eslint.cn. I hope it will help you.
 > A simple formatter/reporter for [ESLint](https://github.com/nzakas/eslint/) that's friendly with Sublime Text and iterm2 "click to open file" functionality
 
 [![NPM Version](http://img.shields.io/npm/v/eslint-formatter-friendly.svg?style=flat)](https://npmjs.org/package/eslint-formatter-friendly)
